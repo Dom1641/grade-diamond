@@ -1,0 +1,205 @@
+
+
+
+
+
+.ril{
+    background-image: url(head.jpg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 45px;
+    color: antiquewhite;
+}
+.sed li:not(.dropdown li){
+    float: left;
+    margin-right: 50px;
+    color: black;
+    
+    
+}
+li :hover{
+    background-color: antiquewhite;
+    border-radius: 7px;
+    height: 7px;
+    width: 13px;
+
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 15px;
+    
+}
+
+.dropdown li {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+#aboutLi:hover  .dropdown{
+    display: list-item;
+    position: relative;
+    top: 5%;
+
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+.sed a{
+    text-decoration: none;
+}
+.sed ul{
+    text-decoration: none;
+    list-style: none;
+    padding-top: 10px;
+    
+}
+.sed img{
+    position: inherit;
+    width: 75px;
+    height: 70px;
+    float: right;
+    padding: 0%;
+    margin-top: 0%;
+}
+.body background{
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown1{
+    display: none;
+    position: absolute;
+    margin: 0;
+    
+}
+
+.dropdown1 li {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+#dropli:hover  .dropdown1{
+    display: list-item;
+    position: relative;
+    top: 5%;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+.sed li:not(.dropdown1 li){
+    float: left;
+    margin-right: 50px;
+    color: black;
+    
+    
+}
+
+
+
+.card1{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(sir.png);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+    color: black;
+}
+.card2{
+    color: black;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(mam.png);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.card3{
+    color: black;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(victoria.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.card4{
+    width: 200px;
+    color: black;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+    background-image: url(diad.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+.col{
+    flex-basis: 50%;
+}
+.row{
+    background-image: url(bakrund.jpg);
+}
+.card :hover{
+    height: 250px;
+    width: 230px;
+    transition: 10s;
+    
+}
+.car{
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.car a{
+    list-style: none;
+    text-decoration: none;
+}
+.car{
+    display: inline-block;
+    width: 100%;
+}
+
+/*
+li :hover{
+    background-color: antiquewhite;
+    border-radius: 7px;
+    height: 7px;
+    width: 13px;
+}
+
+
